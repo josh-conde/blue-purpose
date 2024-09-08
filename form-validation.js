@@ -99,6 +99,6 @@ form.addEventListener('submit', function (e) {
 
     const errors = document.querySelectorAll('.error-message');
     if (errors.length > 0) {
-        e.preventDefault(); // Stop form submission if there are any errors
+        e.preventDefault(); 
     }
 });
