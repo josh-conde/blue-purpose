@@ -157,14 +157,13 @@ h1 {
     margin-right: 30px;
     display: flexbox;
     flex-wrap: wrap;
-
-
 }
 
 
 .form-input input {
     margin: 10px 0;
     padding: 3px;
+    font-size: 1.0rem
 }
 
 .registration-form button {
@@ -205,10 +204,7 @@ h1 {
 
 .error-message {
     color: var(--color-darkcoral);
-    font-size: 10px;
-    margin-top: 20px;
-    grid-column: 2;
-    
+    font-size: .8rem
 }
 
 footer {
