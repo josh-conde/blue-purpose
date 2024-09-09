@@ -289,6 +289,13 @@ footer {
     .form-input input {
         width: 100%;
     }
+
+    .top-nav {
+        justify-content: left;
+        font-size: 13px;
+        flex-wrap: nowrap;
+        flex: 0;
+    }
 }
 
 @media(max-width: 960px) {
