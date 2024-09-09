@@ -172,7 +172,8 @@ h1 {
     color: #fff;
     background-color:var(--color-blue);
     border: none; 
-    border-radius: 16px;
+    border-radius: 5px;
+    font-weight: 500;
     margin-top: 30px;
     margin-bottom: 10px;
 }
