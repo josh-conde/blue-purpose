@@ -146,6 +146,7 @@ h1 {
     display: grid;
     grid-template-rows: 90px;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     margin: 15px 0;
 }
@@ -207,6 +208,8 @@ h1 {
     color: var(--color-darkcoral);
     font-size: .8rem;
     margin-left: 100px;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 footer {
