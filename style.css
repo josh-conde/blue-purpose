@@ -297,6 +297,10 @@ footer {
         flex-wrap: nowrap;
         flex: 0;
     }
+
+    .error-message {
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 960px) {
