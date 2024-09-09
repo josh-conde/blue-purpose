@@ -238,7 +238,19 @@ footer {
 }
 
 @media(max-width: 768px) {
+    .registration {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+    }
 
+    .registration img {
+        display: none;
+    }
+
+    .form-container {
+        width: 90%;
+    }
 }
 
 @media(max-width: 960px) {
@@ -246,6 +258,6 @@ footer {
 }
 
 @media(min-width: 1440px) {
-    
+
 }
 
