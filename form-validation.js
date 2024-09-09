@@ -5,7 +5,7 @@ const username = document.getElementById('username');
 const password = document.getElementById('password');
 const confirmPassword = document.getElementById('confirm-password');
 const form = document.querySelector('.registration-form');
-const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$/;
 const usernameRegex = /^[a-zA-Z0-9]{6,}$/;
 
 function showError(input, message) {
