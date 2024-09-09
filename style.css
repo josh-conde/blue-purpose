@@ -237,3 +237,15 @@ footer {
     transition: color .3s ease-in;
 }
 
+@media(max-width: 768px) {
+
+}
+
+@media(max-width: 960px) {
+
+}
+
+@media(min-width: 1440px) {
+    
+}
+
