@@ -251,6 +251,10 @@ footer {
     .form-container {
         width: 90%;
     }
+    
+    .container {
+        width: 90%;
+    }
 }
 
 @media(max-width: 960px) {
