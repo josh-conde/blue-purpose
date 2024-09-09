@@ -13,7 +13,7 @@ function showError(input, message) {
     formInput.classList.add('error');
     let error = formInput.querySelector('.error-message');
     if (!error) {
-        error = document.createElement('span');
+        error = document.createElement('div');
         error.classList.add('error-message');
         formInput.appendChild(error);
     }
