@@ -123,7 +123,7 @@ h1 {
 .form-container {
     margin: 50px auto;
     background-color: var(--color-lightgray);
-    width: 50%;
+    width: 45%;
     padding: 20px;
     border-radius: 12px;
     border: 2px solid var(--color-blue);
@@ -144,9 +144,8 @@ h1 {
 
 .form-input {
     display: grid;
-    grid-template-rows: 90px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     align-items: center;
     margin: 15px 0;
 }
@@ -193,6 +192,7 @@ h1 {
 .password-prompt {
     font-weight: 300;
     font-size: .7rem;
+    margin-left: 100px;
 }
 
 .required-icon {
@@ -268,6 +268,14 @@ footer {
         justify-items: center;
         text-align: center;
         height: auto;
+    }
+
+    .password-prompt {
+        margin-left: 0;
+    }
+
+    .form-input label {
+        text-align: left;
     }
 }
 
