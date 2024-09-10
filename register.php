@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("sssss", $first_name, $last_name, $dob, $username, $hashed_password);
         
         if ($stmt->execute()) {
-            echo "<div class='success-message-form container'> Your account has been created! Please follow this <a href='https://thebluepurpose.com>Link</a> to head back to our home page. ";
+            echo "<div class='success-message-form container'> Your account has been created! Please follow this <a href='https://thebluepurpose.com>Link</a> to head back to our home page.</a></div> ";
         } else {
             echo "<div class='error-message-form container'>Error: " . $stmt->error . "</div>";
         }
