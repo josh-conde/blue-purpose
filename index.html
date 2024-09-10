@@ -32,57 +32,58 @@
             </div>
         </div>
     </nav>
+
+    <main>
+        <div class="registration container">
+            <h1>Let's get you registered</h1>
+            <p>Please fill out all required fields to get you registered with Blue Purpose</p>
+            <img src="img/doctor.jpg" alt="Doctor on his cellphone">
+        </div>
+        <div class="form-container">
+            <h2>Register for Online Access</h2>
+            <form action="register.php" method="POST" class="registration-form" autocomplete="on">
+                <div class="form-input">
+                    <label for="first-name">First name<span class="required-icon">*</span></label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-input">
+                    <label for="last-name">Last name<span class="required-icon">*</span></label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-input">
+                    <label for="dob">Date of Birth<span class="required-icon">*</span></label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-input">
+                    <label for="username">Username<span class="required-icon">*</span><br><span class="password-prompt">Username must be at least 6 characters long and contain only letters and numbers.</span></label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-input">
+                    <label for="password">Password<span class="required-icon">*</span> <br><span class="password-prompt">Password must include at least 8 characters, 1 uppercase letter, 1 number, and 1 special character. <br>Special characters include:<br> ! @ # $ % ^ & *</span></label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-input">
+                    <label for="confirm-password">Confirm Password<span class="required-icon">*</span></label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="left-footer">
+            <ul>
+                <li><a href="https://thebluepurpose.com">Home</a></li>
+                <li><a href="https://thebluepurpose.com/about-us/">About Us</a></li>
+                <li><a href="https://thebluepurpose.com/solution/">Solution</a></li>
+                <li><a href="https://thebluepurpose.com/privacy/">Privacy Policy</a></li>
+                <li><a href="https://thebluepurpose.com/terms/">Terms of use</a></li>
+                <li><a href="https://thebluepurpose.com/careers/">Careers</a></li>
+            </ul>
+        </div>
+        <div class="right-footer">
+            <p>Copyright 2023 Blue Purpose. All rights reserved</p>
+        </div>
+    </footer>
 </body>
-<main>
-    <div class="registration container">
-        <h1>Let's get you registered</h1>
-        <p>Please fill out all required fields to get you registered with Blue Purpose</p>
-        <img src="img/doctor.jpg" alt="Doctor on his cellphone">
-    </div>
-    <div class="form-container">
-        <h2>Register for Online Access</h2>
-        <form action="register.php" method="POST" class="registration-form" autocomplete="on">
-            <div class="form-input">
-                <label for="first-name">First name<span class="required-icon">*</span></label>
-                <input type="text" id="first-name" name="first-name" required>
-            </div>
-            <div class="form-input">
-                <label for="last-name">Last name<span class="required-icon">*</span></label>
-                <input type="text" id="last-name" name="last-name" required>
-            </div>
-            <div class="form-input">
-                <label for="dob">Date of Birth<span class="required-icon">*</span></label>
-                <input type="date" id="dob" name="dob" required>
-            </div>
-            <div class="form-input">
-                <label for="username">Username<span class="required-icon">*</span><br><span class="password-prompt">Username must be at least 6 characters long and contain only letters and numbers.</span></label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-input">
-                <label for="password">Password<span class="required-icon">*</span> <br><span class="password-prompt">Password must include at least 8 characters, 1 uppercase letter, 1 number, and 1 special character. <br>Special characters include:<br> ! @ # $ % ^ & *</span></label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-input">
-                <label for="confirm-password">Confirm Password<span class="required-icon">*</span></label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-            </div>
-            <button type="submit">Register</button>
-        </form>
-    </div>
-</main>
-<footer>
-    <div class="left-footer">
-        <ul>
-            <li><a href="https://thebluepurpose.com">Home</a></li>
-            <li><a href="https://thebluepurpose.com/about-us/">About Us</a></li>
-            <li><a href="https://thebluepurpose.com/solution/">Solution</a></li>
-            <li><a href="https://thebluepurpose.com/privacy/">Privacy Policy</a></li>
-            <li><a href="https://thebluepurpose.com/terms/">Terms of use</a></li>
-            <li><a href="https://thebluepurpose.com/careers/">Careers</a></li>
-        </ul>
-    </div>
-    <div class="right-footer">
-        <p>Copyright 2023 Blue Purpose. All rights reserved</p>
-    </div>
-</footer>
 </html>
