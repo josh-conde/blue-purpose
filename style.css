@@ -242,6 +242,7 @@ footer {
     border-radius: 12px;
     border: 2px solid var(--color-blue);
     margin: 50px auto;
+    text-align: center;
 }
 
 .success-message-form a {
@@ -255,6 +256,7 @@ footer {
     border-radius: 12px;
     border: 2px solid var(--color-blue);
     margin: 50px auto;
+    text-align: center;
 
 }
 
