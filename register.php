@@ -35,16 +35,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
-        echo "<div class='error-message-form container'>Username already taken!</div>";
+        echo "<div class='error-message-form container'>Username already taken! Please head <a href='index.html'>back</a> and try again.</div>";
     } else {
         $sql = "INSERT INTO users (first_name, last_name, dob, username, password) VALUES (?, ?, ?, ?, ?)";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("sssss", $first_name, $last_name, $dob, $username, $hashed_password);
         
         if ($stmt->execute()) {
-            echo "<div class='success-message-form container'>Your account has been created! Please follow this <a href='https://thebluepurpose.com'>Link</a> to head back to our home page.</div>";
+            echo "<div class='success-message-form'>Your account has been created! Please follow this <a href='https://thebluepurpose.com'>Link</a> to head back to our home page.</div>";
         } else {
-            echo "<div class='error-message-form container'>Error: " . $stmt->error . "</div>";
+            echo "<div class='error-message-form'>Error: " . $stmt->error . "Please head <a href='index.html'>back</a> and try again.</div>";
         }
     }
     
