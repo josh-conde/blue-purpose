@@ -1,4 +1,36 @@
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blue Purpose - Registration</title>
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+                <a href="https://www.facebook.com/TheBluePurposeVibe/"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="https://www.linkedin.com/company/the-blue-purpose/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                <a href="tel:+18668562583">+1 (866)-856-BLUE (2583)</a>
+                <a href="mailto:vibe@thebluepurpose.com">VIBE@TheBluePurpose.com</a>
+        </div>
+
+        <div class="bot-nav">
+            <div class="left-nav">
+                <img src="img/blue-purpose-logo.png" alt="Blue Purpose Logo">
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="https://thebluepurpose.com">Home</a></li>
+                    <li><a href="https://thebluepurpose.com/about-us/">About Us</a></li>
+                    <li>Solution <i class="fa-solid fa-angle-down"></i></li>
+                    <li><a href="https://thebluepurpose.com/blogs/">Blogs</a></li>
+                    <li>Contact Us <i class="fa-solid fa-angle-down"></i></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
@@ -52,3 +84,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
+    <footer>
+        <div class="left-footer">
+            <ul>
+                <li><a href="https://thebluepurpose.com">Home</a></li>
+                <li><a href="https://thebluepurpose.com/about-us/">About Us</a></li>
+                <li><a href="https://thebluepurpose.com/solution/">Solution</a></li>
+                <li><a href="https://thebluepurpose.com/privacy/">Privacy Policy</a></li>
+                <li><a href="https://thebluepurpose.com/terms/">Terms of use</a></li>
+                <li><a href="https://thebluepurpose.com/careers/">Careers</a></li>
+            </ul>
+        </div>
+        <div class="right-footer">
+            <p>Copyright 2023 Blue Purpose. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
