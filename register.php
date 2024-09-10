@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "joshconde";  
-$password = "#Jlc122394";  
-$dbname = "blue_purpose";  
+$username = "root";  
+$password = "";  
+$dbname = "registration_db";  
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
