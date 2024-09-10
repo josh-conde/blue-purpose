@@ -237,11 +237,11 @@ footer {
 }
 
 .success-message-form {
-    width: 100%;
-    margin: 50px auto;
+    width: 300px;
     padding: 20px;
-    font-size: 1.3rem;
-
+    border-radius: 12px;
+    border: 2px solid var(--color-blue);
+    margin: 50px auto;
 }
 
 .success-message-form a {
@@ -250,10 +250,11 @@ footer {
 }
 
 .error-message-form {
-    width: 100%;
-    margin: 50px auto;
+    width: 300px;
     padding: 20px;
-    font-size: 1.3rem;
+    border-radius: 12px;
+    border: 2px solid var(--color-blue);
+    margin: 50px auto;
 
 }
 
