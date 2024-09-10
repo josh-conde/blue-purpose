@@ -32,16 +32,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $stmt->get_result();
 
     if ($result->num_rows > 0) {
-        echo "Username already taken!";
+        echo "<div class='error-message-form container'>Username already taken!</div>";
     } else {
         $sql = "INSERT INTO users (first_name, last_name, dob, username, password) VALUES (?, ?, ?, ?, ?)";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("sssss", $first_name, $last_name, $dob, $username, $hashed_password);
         
         if ($stmt->execute()) {
-            echo "Registration successful!";
+            echo "<div class='success-message-form container'> Your account has been created! Please follow this <a href='https://thebluepurpose.com>Link</a> to head back to our home page. ";
         } else {
-            echo "Error: " . $stmt->error;
+            echo "<div class='error-message-form container'>Error: " . $stmt->error . "</div>";
         }
     }
     
