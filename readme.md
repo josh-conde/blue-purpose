@@ -56,7 +56,7 @@ Welcome to **Blue Purpose**, a sleek and secure web application designed to hand
 
 ## 🧑‍💻 About the Author
 
-This project was created by [Joshua Conde](https://github.com/your-username), a freelance web developer with a passion for clean, secure, and user-friendly web applications. Let’s connect!
+This project was created by [Joshua Conde](https://github.com/josh-conde), a freelance web developer with a passion for clean, secure, and user-friendly web applications. Let’s connect!
 
 ---
 
